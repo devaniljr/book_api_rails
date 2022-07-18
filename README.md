@@ -8,8 +8,10 @@ This is a simple API project with Ruby on Rails. With it, it is possible to make
 
 Body example for POST: 
 
+```
   {
     "name": "testing a book",
     "description": "look aht this book",
     "rating": 5
   }
+```
