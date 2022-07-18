@@ -1,25 +1,15 @@
-# README
+# BOOK API
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple API project with Ruby on Rails. With it, it is possible to make three types of requests:
 
-Things you may want to cover:
+1. GET /api/v1/books (lists all books)
+2. GET /api/v1/books/:id (lists a specific book)
+3. POST /api/v1/books (uploads a new book).
 
-* Ruby version
+Body example for POST: 
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# book_api_rails
+  {
+    "name": "testing a book",
+    "description": "look aht this book",
+    "rating": 5
+  }
